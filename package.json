@@ -69,33 +69,6 @@
     "check-leaks": false
   },
   "nyc": {
-    "check-coverage": true,
-    "per-file": true,
-    "lines": [
-      80,
-      90
-    ],
-    "statements": [
-      55,
-      90
-    ],
-    "functions": [
-      55,
-      90
-    ],
-    "branches": [
-      55,
-      90
-    ],
-    "include": [
-      "lib/**/*.js",
-      "*.js"
-    ],
-    "reporter": [
-      "text-summary",
-      "lcov"
-    ],
-    "all": true,
-    "report-dir": "./coverage"
+    "check-coverage": false
   }
 }
